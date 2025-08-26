@@ -42,7 +42,69 @@
                     <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button class="burger-btn" type="button" data-menu-open>
+                <svg class="burger-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
         </div>
+    <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+
+        </div>
+    </div>
+    <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button class="button-mobile-close" data-menu-close>
+                    <svg class="mobile-close" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black"></use>
+                    </svg>
+                </button>
+                <nav class="mobile-nav">
+                    <ul class="nav-list-mobile">
+                        <li class="mobile-list-nav"><a class="mobile-link-nav current" href="./index.html">Studio</a></li>
+                        <li class="mobile-list-nav"><a class="mobile-link-nav" href="">Portfolio</a></li>
+                        <li class="mobile-list-nav"><a class="mobile-link-nav" href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <address class="contacts-mobile">
+                    <ul class="mobile-list">
+                        <li class="mobile-item"><a class="mobile-link current" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                        <li class="mobile-item"><a class="mobile-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    </ul>
+                </address>
+                <ul class="social-list-mobile">
+                    <li class="icons-item-mobile">
+                        <a class="icons-link-mobile" href="https://www.instagram.com" target="_blank">
+                            <svg class="link-item-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-item-mobile">
+                        <a class="icons-link-mobile" href="https://x.com" target="_blank">
+                            <svg class="link-item-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-item-mobile">
+                        <a class="icons-link-mobile" href="https://www.facebook.com/?locale=ru_RU" target="_blank">
+                            <svg class="link-item-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-item-mobile">
+                        <a class="icons-link-mobile" href="https://ua.linkedin.com" target="_blank">
+                            <svg class="link-item-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
     </header>
             <main class="page-main">
                 <!-- section 1 -->
@@ -415,7 +477,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop " data-modal>
+    <div class="hidden backdrop " data-modal>
         <div class="modal">
             <button class="button-close" data-modal-close  type="button">
                 <svg width="8" height="8">
@@ -474,5 +536,6 @@
         </div>
     </div>
     <script src="./JS/modal.js"></script>
+    <script src="./JS/menu.js"></script>
 </body>
 </html>
